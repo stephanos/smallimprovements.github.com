@@ -4,25 +4,80 @@
     <title>Small Improvements - Open Source projects</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content="Performance review software and 360 degree feedback software. Our opensource projects"
+name="description">
+    <meta name="keywords"
+content="360 degree feedback software, feedback, peer review, employee appraisal, performance review software, opensource, plugins, smallipop, smallimap, jquery">
     <link rel="stylesheet" href="css/screen.css" type="text/css" media="all" />
   </head>
   <body>
     <div class="pageHeader hasShadow">
-      <h1>Small Improvements - Open Source projects</h1>
-      <br/>
-
-      <ul class="tabs">
+      <h1 style="display:none;">Small Improvements - Open Source projects</h1>
+      <a href="https://www.small-improvements.com" title="Small Improvements" class="logo">
+        <img src="images/logo-title.png" width="226" height="61" alt="Small Improvements Logo" title="Performance Review Software. 360 Degree Review Software. Small Improvements." />
+      </a>
+      <ul class="menu clearfix">
         <li><a href="http://projects.sebastianhelzle.net/jquery.smallipop" title="jQuery smallipop - A tooltip plugin" target="_blank">Smallipop</a></li>
-        <li class="selected">
-          <a href="https://github.com/SmallImprovements/jquery.smallimap" title="jQuery smallimap - An interactive map plugin">Smallimap</a>
+        <li>
+          <a href="http://opensource.small-improvements.com/jquery.smallimap" title="jQuery smallimap - An interactive map plugin">Smallimap</a>
         </li>
       </ul>
     </div>
 
     <div class="page hasShadow">
-      Welcome!<br>
-      Check out our great open source plugins
-      <a href="http://projects.sebastianhelzle.net/jquery.smallipop">smallipop</a> and <a href="http://opensource.small-improvements.com/jquery.smallimap">smallimap</a>
+      <p>
+        Welcome,<br>
+        check out our great open source plugins!
+      </p>
+      <hr/>
+      <p>
+        <h2 style="display:none;">jQuery Smallipop</h2>
+        <a href="http://projects.sebastianhelzle.net/jquery.smallipop" title="jQuery Smallipop">
+          <img src="images/smallipop-logo.png" alt="jQuery Smallipop Logo"/>
+        </a>
+      </p>
+      <p>
+        A versatile jQuery plugin for displaying beautiful tooltips.
+      </p>
+      <hr/>
+      <p>
+        <h2>jQuery Smallimap</h2>
+        <a href="http://opensource.small-improvements.com/jquery.smallimap" title="jQuery Smallimap">
+          <img src="images/smallimap-logo.png" alt="jQuery Smallimap Logo"/>
+        </a>
+      </p>
+      <p>
+        An interactive map plugin for jQuery.
+      </p>
+      <hr/>
+      <div class="center">
+        &copy; 2013 by <a href="https://www.small-improvements.com" title="Small Improvements homepage">Small Improvements</a>
+      </div>
     </div>
+
+    <script type="text/javascript" src="lib/modernizr.js"></script>
+    <script type="text/javascript" src="lib/jquery-1.9.0.min.js"></script>
+
+    <script type="text/javascript">
+        var hostname = document.location.hostname;
+        if (hostname && (hostname.indexOf('github') >= 0 || hostname.indexOf('small-improvements') >= 0)) {
+            var pkBaseURL = (("https:" == document.location.protocol) ? "https://tracking.sebastianhelzle.net/" : "http://tracking.sebastianhelzle.net/");
+            document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+        }
+    </script>
+    <!-- Piwik -->
+    <script type="text/javascript">
+        try {
+            var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 9);
+            piwikTracker.trackPageView();
+            piwikTracker.enableLinkTracking();
+        } catch( err ) {}
+    </script>
+    <noscript>
+      <p>
+        <img src="http://tracking.sebastianhelzle.net/piwik.php?idsite=9" style="border:0" alt="" />
+      </p>
+    </noscript>
+    <!-- End Piwik Tracking Code -->
   </body>
 </html>
