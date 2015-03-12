@@ -41,20 +41,21 @@
       "properties": {
         "title": "Small Improvements",
         "description": "Homebase", 
-         "marker-color": "#fc4353",
+        "marker-color": "#fc4353",
         "marker-size": "large",
         "icon": {
             "iconUrl": "/favicon.ico",
             "iconSize": [50, 50],
             "iconAnchor": [25, 25],
-            "popupAnchor": [0, -25]
+            "popupAnchor": [0, -25],
+            "class" : "dot"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.407939076423645,
-          52.52665279403019
+          13.404420018196106,
+          52.52448076748532
         ]
       }
     }
