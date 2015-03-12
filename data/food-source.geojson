@@ -40,7 +40,7 @@
       "properties": {
         "title": "Small Improvements",
         "description": "Homebase", 
-        "marker-color": "FFCA17",
+        "marker-color": "#ffca17",
         "marker-size": "large",
         "marker-symbol: "building"
       },
