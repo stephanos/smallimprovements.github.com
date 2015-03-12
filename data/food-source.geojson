@@ -40,15 +40,9 @@
       "properties": {
         "title": "Small Improvements",
         "description": "Homebase", 
-        "marker-color": "#fc4353",
+        "marker-color": "FFCA17",
         "marker-size": "large",
-        "icon": {
-            "iconUrl": "/images/logo-title.png",
-            "iconSize": [50, 50],
-            "iconAnchor": [25, 25],
-            "popupAnchor": [0, -25],
-            "class" : "dot"
-        }
+        "marker-symbol: "building"
       },
       "geometry": {
         "type": "Point",
