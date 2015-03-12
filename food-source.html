@@ -28,7 +28,7 @@ function load() {
       withCredentials: false
     },
     dataType: 'json',
-    url: 'https://api.github.com/repos/mapbox/mapbox.js/contents/test/manual/example.geojson',
+    url: 'https://api.github.com/repos/SmallImprovements/smallimprovements.github.com/contents/data/food-source.geojson',
     success: function(geojson) {
         L.mapbox.featureLayer(geojson).addTo(map);
     }
