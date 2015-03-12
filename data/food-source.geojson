@@ -42,7 +42,7 @@
         "description": "Homebase", 
         "marker-color": "#ffca17",
         "marker-size": "large",
-        "marker-symbol: "building"
+        "marker-symbol": "building"
       },
       "geometry": {
         "type": "Point",
