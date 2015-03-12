@@ -22,10 +22,33 @@
       "type": "Feature",
       "properties": {
         "title": "Monsieur Vuong",
-        "description": "Vietnamese / sehr laut, schwer Tisch zu bekommen, Mittagsgericht immer zu Empfehlen Der vietn. Espresso ist sehr zu empfehlen",
+        "description": "Vietnamese / sehr laut, schwer Tisch zu bekommen, 
+        Mittagsgericht immer zu Empfehlen. Der vietnamesische  Espresso ist sehr zu empfehlen",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.407939076423645,
+          52.52665279403019
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "title": "Small Improvements",
+        "description": "Homebase", 
+         "marker-color": "#fc4353",
+        "marker-size": "large",
+        "icon": {
+            "iconUrl": "/favicon.ico",
+            "iconSize": [50, 50],
+            "iconAnchor": [25, 25],
+            "popupAnchor": [0, -25]
+        }
       },
       "geometry": {
         "type": "Point",
