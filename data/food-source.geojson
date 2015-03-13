@@ -68,6 +68,23 @@
           52.522670935314835
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#cfdb00",
+        "marker-size": "large",
+        "marker-symbol": "cafe",
+        "title": "Mamecha (Japanisches Cafe)",
+        "description": "Sehr gute Tees und Kuchen und kleinere Gerichte (Gyoza etc.)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.406206369400024,
+          52.52720761454267
+        ]
+      }
     }
   ]
 }
