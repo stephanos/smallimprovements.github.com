@@ -51,6 +51,23 @@
           52.52448076748532
         ]
       }
+    },
+      {
+      "type": "Feature",
+       "properties": {
+       "marker-color": "#087500",
+        "marker-size": "large",
+        "marker-symbol": "restaurant",
+         "title" : "Aposto",
+         "description": "Italiener mit Mittagstisch. Sehr gute Pizza und Pasta mit Pizzabrot als Vorspeise."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.39978516101837,
+          52.522670935314835
+        ]
+      }
     }
   ]
 }
