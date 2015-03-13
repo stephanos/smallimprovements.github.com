@@ -52,14 +52,14 @@
         ]
       }
     },
-      {
+   {
       "type": "Feature",
-       "properties": {
-       "marker-color": "#087500",
+      "properties": {
+        "marker-color": "#087500",
         "marker-size": "large",
         "marker-symbol": "restaurant",
-         "title" : "Aposto",
-         "description": "Italiener mit Mittagstisch. Sehr gute Pizza und Pasta mit Pizzabrot als Vorspeise."
+        "title": "Aposto",
+        "description": "Italiener mit sMittagstisch. Sehr gute Pizza und Pasta mit Pizzabrot als Vorspeise."
       },
       "geometry": {
         "type": "Point",
