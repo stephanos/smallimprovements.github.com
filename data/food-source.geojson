@@ -7,8 +7,8 @@
         "marker-color": "#f60101",
         "marker-size": "large",
         "marker-symbol": "restaurant",
-        "title": "Dolores",
-        "description": "Burritos"
+        "title": "Dolores (Burritos)",
+        "description": "Burritos!"
       },
       "geometry": {
         "type": "Point",
@@ -21,8 +21,8 @@
     {
       "type": "Feature",
       "properties": {
-        "title": "Monsieur Vuong",
-        "description": "Vietnamese / sehr laut, schwer Tisch zu bekommen,  Mittagsgericht immer zu Empfehlen. Der vietnamesische  Espresso ist sehr zu empfehlen",
+        "title": "Monsieur Vuong (Vietnamesisch)",
+        "description": " sehr laut, schwer Tisch zu bekommen,  Mittagsgericht immer zu Empfehlen. Der vietnamesische  Espresso ist sehr zu empfehlen",
         "marker-color": "#fc4353",
         "marker-size": "large",
         "marker-symbol": "restaurant"
@@ -38,7 +38,7 @@
      {
       "type": "Feature",
       "properties": {
-        "title": "Small Improvements",
+        "title": "Small Improvements (Software)",
         "description": "Homebase", 
         "marker-color": "#ffca17",
         "marker-size": "large",
@@ -58,8 +58,8 @@
         "marker-color": "#087500",
         "marker-size": "large",
         "marker-symbol": "restaurant",
-        "title": "Aposto",
-        "description": "Italiener mit Mittagstisch. Sehr gute Pizza und Pasta mit Pizzabrot als Vorspeise."
+        "title": "Aposto (Italienisch)",
+        "description": "Mittagstisch. Sehr gute Pizza und Pasta mit Pizzabrot als Vorspeise."
       },
       "geometry": {
         "type": "Point",
