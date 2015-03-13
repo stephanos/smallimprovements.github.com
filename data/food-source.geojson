@@ -85,6 +85,23 @@
           52.52720761454267
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#e10000",
+        "marker-size": "large",
+        "marker-symbol": "restaurant",
+        "title": "Yogi (Indisch)",
+        "description": "Auch für große Gruppen geeignet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.407158553600311,
+          52.52375619078792
+        ]
+      }
     }
   ]
 }
